@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <!--OG-->
+    <meta property="vk:image" content="/og-vk.png" />
+    <meta property="og:image" content="/og-fb.png" />
+    <meta property="og:type" content="images" />
+    <meta property="og:title" content="О том, как устроено IT в Додо Пицца" />
+    <meta property="og:description"
+        content="В Додо Пицца IT является важнейшей составляющей. Здесь мы рассказываем о том, куда мы идем с точки зрения архитектуры и развития системы" />
+    <meta property="og:url" content="https://www.dodopizza.dev/" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <title>dodo-is</title>
+</head>
+
+<body>
+    <script>
+        const SITE_ROOT = '/';
+        const href = window.location.href
+        const href_parts = /(^\w+\:\/\/[\w\.]+)(\/.+)/i.exec(href);
+        const root = href_parts[1];
+        const route = href_parts[2].substr(SITE_ROOT.length);
+
+        window.location.href = root + SITE_ROOT;
+        localStorage.setItem('path', route);
+    </script>
+</body>
+
+</html>
