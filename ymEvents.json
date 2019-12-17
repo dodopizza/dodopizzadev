@@ -1,0 +1,147 @@
+[{
+        "home": {
+            "eventName": "Клик по кнопке Home",
+            "id": "home",
+            "modes": [ "manager" ]
+        },
+        "business": {
+            "eventName": "Клик по кнопке Business",
+            "id": "business",
+            "modes": [ "manager" ]
+        },
+        "stack": {
+            "eventName": "Клик по кнопке Stack",
+            "id": "stack",
+            "modes": [ "manager" ]
+        },
+        "jobs": {
+            "eventName": "Клик по кнопке Jobs",
+            "id": "jobs",
+            "modes": [ "manager" ]
+        },
+        "test": {
+            "eventName": "Клик по кнопке Test",
+            "id": "test",
+            "modes": [ "manager" ]
+        },
+        "projects": {
+            "eventName": "Клик по кнопке Projects",
+            "id": "projects",
+            "modes": [ "manager" ]
+        },
+        "dodopizzastory": {
+            "eventName": "Клик по кнопке Dodo Pizza Story",
+            "id": "dodopizzastory",
+            "modes": [ "manager", "dev" ]
+        },
+        "github": {
+            "eventName": "Клик по кнопке GitHub",
+            "id": "github",
+            "modes": [ "manager", "dev" ]
+        },
+        "androiddeveloper": {
+            "eventName": "Клик по вакансии Android Developer",
+            "id": "androiddeveloper",
+            "modes": [ "manager", "dev" ]
+        },
+        "netdeveloper": {
+            "eventName": "Клик по вакансии .Net Developer",
+            "id": "netdeveloper",
+            "modes": [ "manager", "dev" ]
+        },
+        "qaautomationengineer": {
+            "eventName": "Клик по вакансии QA automation engineer",
+            "id": "qaautomationengineer",
+            "modes": [ "manager", "dev" ]
+        },
+        "qamanualmiddle": {
+            "eventName": "Клик по вакансии QA manual middle",
+            "id": "qamanualmiddle",
+            "modes": [ "manager", "dev" ]
+        },
+        "uxuidesignerofmobileapp": {
+            "eventName": "Клик по вакансии UX/UI-designer of mobile app",
+            "id": "uxuidesignerofmobileapp",
+            "modes": [ "manager", "dev" ]
+        },
+        "testgo": {
+            "eventName": "Клик по кнопке прохождения теста",
+            "id": "testgo",
+            "modes": [ "manager" ]
+        },
+        "testgoout": {
+            "eventName": "Клик по кнопке Выход в тесте",
+            "id": "testgoout",
+            "modes": [ "manager", "dev" ]
+        },
+        "testfb": {
+            "eventName": "Клик по кнопке Поделиться тестом в Facebook",
+            "id": "testfb",
+            "modes": [ "manager", "dev" ]
+        },
+        "testvk": {
+            "eventName": "Клик по кнопке Поделиться тестом во VK",
+            "id": "testvk",
+            "modes": [ "manager", "dev" ]
+        },
+        "testtwitter": {
+            "eventName": "Клик по кнопке Поделиться тестом в Twitter",
+            "id": "testtwitter",
+            "modes": [ "manager", "dev" ]
+        },
+        "cman": {
+            "eventName": "Клик по кнопке CMAN",
+            "id": "cman",
+            "modes": [ "manager", "dev" ]
+        },
+        "prododoject": {
+            "eventName": "Клик по кнопке Фрактальная пицца",
+            "id": "prododoject",
+            "modes": [ "manager", "dev" ]
+        },
+        "aipizza": {
+            "eventName": "Клик по кнопке AI Pizza",
+            "id": "aipizza",
+            "modes": [ "manager", "dev" ]
+        },
+        "habr": {
+            "eventName": "Клик по кнопке Habr",
+            "id": "habr",
+            "modes": [ "manager", "dev" ]
+        },
+        "vk": {
+            "eventName": "Клик по кнопке VK",
+            "id": "vk",
+            "modes": [ "manager", "dev" ]
+        },
+        "facebook": {
+            "eventName": "Клик по кнопке Facebook",
+            "id": "facebook",
+            "modes": [ "manager", "dev" ]
+        },
+        "telegram": {
+            "eventName": "Клик по кнопке Telegram",
+            "id": "telegram",
+            "modes": [ "manager", "dev" ]
+        },
+        "youtube": {
+            "eventName": "Клик по кнопке YouTube",
+            "id": "youtube",
+            "modes": [ "manager", "dev" ]
+        },
+        "managermodetodev": {
+            "eventName": "Клик по кнопке Manager Mode – переход в Dev",
+            "id": "managermodetodev",
+            "modes": [ "manager" ]
+        },
+        "devtomanagermode": {
+            "eventName": "Клик по кнопке Manager Mode – переход в Manager",
+            "id": "devtomanagermode",
+            "modes": [ "dev" ]
+        },
+        "voice": {
+            "eventName": "Клик по кнопке Sound",
+            "id": "voice",
+            "modes": []
+        }
+}]
