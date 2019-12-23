@@ -143,5 +143,10 @@
             "eventName": "Клик по кнопке Sound",
             "id": "voice",
             "modes": []
+        },
+        "testdone": {
+            "eventName": "Тест пройден на 100%",
+            "id": "testdone",
+            "modes": []
         }
 }]
