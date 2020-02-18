@@ -11,15 +11,18 @@
       webvisor: true,
       trackHash: true
     });
-    window.storeEvents = (eventsObject) => window.ymEvents = eventsObject[0];
-    ym.send = (eventId, mode) => {
+    window.storeEvents = (eventsObject) => window.ymEvents = eventsObject;
+    ym.send = (eventId, mode, params = null) => {
       if (!ymEvents[eventId])
         return console.warn('There is no yandex-metrika event with id [' + eventId + ']');
       const event = ymEvents[eventId];
+      const eventArgs = [ 50981894, 'reachGoal', event.id ];
       if (mode === 'dev' && event.modes.includes('dev'))
-        return ym(50981894, 'reachGoal', event.id + 'dev');
-      return ym(50981894, 'reachGoal', event.id);
+        eventArgs[2] += 'dev';
+      if (params)
+        eventArgs.push(params);
+      return ym.apply({}, eventArgs);
     }
     ym.hit = (url) => {
       return ym(50981894, 'hit', url)
-    }</script><script jsoncallback=storeEvents src=/ymEvents.json></script><script jsonobject=jobs src=/jobs.json></script><script defer src=/loadJSON.js></script><link href=/css/app.deba2169.css rel=preload as=style><link href=/js/app.a4eb11b1.js rel=preload as=script><link href=/js/chunk-vendors.d5c3b481.js rel=preload as=script><link href=/css/app.deba2169.css rel=stylesheet></head><body><noscript><div><img src=https://mc.yandex.ru/watch/50981894 style="position:absolute; left:-9999px;" alt=""></div><h1>О том, как разработчики пилят IT в Dodo</h1><p>Wake up, % username %. Dodo Pizza still hasn’t you. Follow the RabbitMQ. Мы – разработчики. Считаем правильными blameless culture и no bullshit. Создаём систему Dodo IS. Она — симбиоз CRM, E HRM-систем. Она управляет всем бизнесом Dodo. Мы работаем в 13 странах, в планах — весь мир. Нам нужен ты.</p></noscript><div id=app></div><script src=/js/chunk-vendors.d5c3b481.js></script><script src=/js/app.a4eb11b1.js></script></body></html>
+    }</script><script jsoncallback=storeEvents json=/json/ymEvents.json></script><script jsonobject=socialLinks json=/json/socialLinks.json></script><script jsonobject=textLines json=/json/textLines.json></script><script jsonobject=testContents json=/json/testContents.json></script><script jsonobject=jobs json=/json/jobs.json></script><script defer src=/loadJSON.js></script><link href=/css/app.aa618671.css rel=preload as=style><link href=/js/app.0a53ad80.js rel=preload as=script><link href=/js/chunk-vendors.480f0f6a.js rel=preload as=script><link href=/css/app.aa618671.css rel=stylesheet></head><body><noscript><div><img src=https://mc.yandex.ru/watch/50981894 style="position:absolute; left:-9999px;" alt=""></div><h1>О том, как разработчики пилят IT в Dodo</h1><p>Wake up, % username %. Dodo Pizza still hasn’t you. Follow the RabbitMQ. Мы – разработчики. Считаем правильными blameless culture и no bullshit. Создаём систему Dodo IS. Она — симбиоз CRM, E HRM-систем. Она управляет всем бизнесом Dodo. Мы работаем в 13 странах, в планах — весь мир. Нам нужен ты.</p></noscript><div id=app></div><script src=/js/chunk-vendors.480f0f6a.js></script><script src=/js/app.0a53ad80.js></script></body></html>

@@ -1,0 +1,32 @@
+{
+  "githubLink": {
+    "href": "https://github.com/dodopizza",
+    "title": null,
+    "eventId": null
+  },
+  "habrLink": {
+    "href": "https://habr.com/ru/company/dodopizzaio/",
+    "title": "Habr",
+    "eventId": "habr"
+  },
+  "vkLink": {
+    "href": "https://vk.com/dodopizzadev",
+    "title": "VK",
+    "eventId": "vk"
+  },
+  "fbLink": {
+    "href": "https://www.facebook.com/dodopizzadev/",
+    "title": "Facebook",
+    "eventId": "facebook"
+  },
+  "tgLink": {
+    "href": "https://teleg.run/dodopizzadev",
+    "title": "Telegram",
+    "eventId": "telegram"
+  },
+  "ytLink": {
+    "href": "https://www.youtube.com/user/dodomovie/playlists",
+    "title": "YouTube",
+    "eventId": "youtube"
+  }
+}

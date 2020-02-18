@@ -1,0 +1,7 @@
+{
+  "fetchUrl": "https://cors-anywhere.herokuapp.com/https://careers-page.workable.com/api/v2/accounts/dodopizza/jobs",
+  "linkFormat": "https://apply.workable.com/dodopizza/j/{shortcode}/apply",
+  "replace": {
+    ".Net": ".NET"
+  }
+}
