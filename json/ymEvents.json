@@ -1,4 +1,9 @@
 {
+  "vacancy_click": {
+      "eventName": "Клик по вакансии",
+      "id": "vacancy_click",
+      "modes": [ "manager", "dev" ]
+  },
   "home": {
       "eventName": "Клик по кнопке Home",
       "id": "home",
