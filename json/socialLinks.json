@@ -5,12 +5,12 @@
     "eventId": null
   },
   "habrLink": {
-    "href": "https://habr.com/ru/company/dodopizzaio/",
+    "href": "https://habr.com/ru/company/dododev/",
     "title": "Habr",
     "eventId": "habr"
   },
   "vkLink": {
-    "href": "https://vk.com/dodopizzadev",
+    "href": "https://vk.com/dododev",
     "title": "VK",
     "eventId": "vk"
   },
@@ -20,9 +20,14 @@
     "eventId": "facebook"
   },
   "tgLink": {
-    "href": "https://teleg.run/dodopizzadev",
+    "href": "https://t.me/dododev",
     "title": "Telegram",
     "eventId": "telegram"
+  },
+  "twLink": {
+    "href": "https://twitter.com/dodopizzadev",
+    "title": "Twitter",
+    "eventId": "Twitter"
   },
   "ytLink": {
     "href": "https://www.youtube.com/user/dodomovie/playlists",
