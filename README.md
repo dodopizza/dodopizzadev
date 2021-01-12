@@ -1,2 +1,0 @@
-# dodopizzadev
-Landing dodopizza.dev
