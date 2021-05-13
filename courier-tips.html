@@ -7,9 +7,18 @@
   <title>Чаевые Додо Курьер</title>
 </head>
 <body>
-  <embed id="embed-pdf" src="Delivery_Courier.pdf" />
+  <object type="image/svg+xml" data="tips%201.svg"></object>
+  <object type="image/svg+xml" data="tips%202.svg"></object>
+  <object type="image/svg+xml" data="tips%203.svg"></object>
+  <object type="image/svg+xml" data="tips%204.svg"></object>
+  <object type="image/svg+xml" data="tips%205.svg"></object>
+  <object type="image/svg+xml" data="tips%206.svg"></object>
+  <object type="image/svg+xml" data="tips%207.svg"></object>
+  <object type="image/svg+xml" data="tips%208.svg"></object>
+  <object type="image/svg+xml" data="tips%209.svg"></object>
+  <object type="image/svg+xml" data="tips%2010.svg"></object>
   <style>
-    html, body, embed {
+    html, body {
       position: absolute;
       top: 0;
       left: 0;
@@ -18,18 +27,10 @@
       padding: 0;
       margin: 0;
     }
-  </style>
-  <script>
-    function resize() {
-      const pdf = document.getElementById('embed-pdf');
-      if (!pdf) return;
-      pdf.setAttribute('width', window.screen.width + 'px');
-      pdf.setAttribute('height', window.screen.heigth + 'px');
+    svg {
+      width: 100vw !important;
+      height: auto !important;
     }
-    window.onload = () => {
-      document.addEventListener('resize', () => resize());
-      resize();
-    };
-  </script>
+  </style>
 </body>
 </html>
