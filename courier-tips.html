@@ -7,15 +7,29 @@
   <title>Чаевые Додо Курьер</title>
 </head>
 <body>
-  <iframe src="https://drive.google.com/file/d/1KRQ9x2nVMT-0zZSYNBIF1ZUN1-GIxDvo/view"></iframe>
+  <embed id="embed-pdf" src="Delivery_Courier.pdf" />
   <style>
-    html, body, iframe {
+    html, body, embed {
       position: absolute;
       top: 0;
       left: 0;
       width: 100vw;
       height: 100vh;
+      padding: 0;
+      margin: 0;
     }
   </style>
+  <script>
+    function resize() {
+      const pdf = document.getElementById('embed-pdf');
+      if (!pdf) return;
+      pdf.setAttribute('width', window.screen.width + 'px');
+      pdf.setAttribute('height', window.screen.heigth + 'px');
+    }
+    window.onload = () => {
+      document.addEventListener('resize', () => resize());
+      resize();
+    };
+  </script>
 </body>
 </html>
