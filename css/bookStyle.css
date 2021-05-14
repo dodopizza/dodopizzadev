@@ -1,0 +1,320 @@
+/** {
+	background-color: 
+}*/
+
+body {
+	align-content: center;
+	max-width: 900px;
+	margin: auto;
+
+	padding: 20px;
+	padding-bottom: 50px;
+} 
+
+h1, h2, h3, h4, p, ul, a {
+	font-family: -apple-system, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-size: 40pt;
+	margin-top: 100px;
+	margin-bottom: 0px;
+	/*text-align: center;*/
+}
+
+h2 {
+	font-size: 24pt;
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
+
+p, h3, ul, input {
+	font-size: 14pt;
+	line-height: 140%;
+}
+
+
+
+iframe {
+	width: 900px;
+	height: 506px;
+}
+
+.cheklist {
+	list-style: none;
+}
+
+.cheklist-done::before {
+  	content: "✓"; /* Insert content that looks like bullets */
+  	padding-right: 8px;
+  	margin-left: -20px;
+}
+
+.cheklist > .cheklist-todo::before {
+  	content: "•";
+  	padding-right: 8px;
+  	margin-left: -16px;
+}
+
+/*---------------------------------*/
+.author {
+	background-color: bisque;
+	padding: 20px;
+	border-radius: 70px;
+	margin-top: 20px;
+}
+
+.author img {
+	clip-path: circle(50px at center);
+	width: 100px;
+	height: 100px;
+	float: left;
+	padding: 5px;
+	margin-left: -5px;
+	margin-right: 10px;
+	margin-top: -10px;
+}
+
+.author p {
+	margin: 5px;
+	padding-left: 70px;
+}
+
+/*---------------------------------*/
+
+.content {
+	margin-top: 50px;
+	margin-bottom: 100px
+}
+
+.content img {
+	float: left;
+	width: 420px;
+	height: 560px;
+	margin-right: 100px;
+}
+
+.context text {
+	display: block;
+}
+
+.image-gallery img {
+	width: 32%
+}
+
+.sample {
+	border: 1px solid silver; /*can't put in .image-gallery img, table on images become to be list oO*/
+}
+
+.date {
+	color: darkgray;
+	font-style: italic;
+}
+
+input {
+	display: block-inline;
+}
+
+.appLink {
+    text-align: center;
+}
+
+/*---------------------------------*/
+.highlight {
+	margin-top: 50px;
+
+	padding-top: 5px;
+	padding-bottom: 50px;
+
+	margin-left: -100px;
+	padding-left: 100px;
+
+	margin-right: -100px;
+	padding-right: 100px;
+}
+
+
+
+
+/* Demo */
+
+#demo {
+	background-color: bisque;
+}
+
+#demo > h2 {
+	color: sienna;
+}
+
+#tlemail {
+    width: 350px; height: 40px;
+    border: 1px solid sienna; border-radius: 10px 0px 0px 10px;
+    margin-right: -4px;
+    padding-left: 10px
+}
+
+input[type="submit"] {
+    border: none; width: 150px; height: 44px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: sienna; color: white;
+    padding-top: 4px;
+}
+
+/* Course */
+
+#course {
+	background-color: #6DFFDC;
+}
+
+#course > h2 {
+	color: darkslategray
+}
+
+
+
+/*Footer*/
+
+footer {
+	text-align: center;
+	margin-top: 100px;
+	color: black;
+}
+
+
+
+
+
+
+/*---------------------------------*/
+
+@media only screen and (max-width: 900px) {
+	h1 {
+		font-size: 24pt;
+		margin-top: 20px;
+	}
+
+	.author {
+		padding: 10px;
+        border-radius: 30px;
+	}
+    
+
+	.author img {
+		float: none;
+		display: block;
+		align-content: center;
+	  	margin-left: auto;
+	  	margin-right: auto;
+	  	margin-top: 20px;
+
+	}
+
+	.author p {
+		padding-left: 0px;
+	}
+
+	.content {
+		margin-top: 50px;
+		margin-bottom: 20px
+	}
+
+	.content img {
+		width: 100%;
+		height: auto;
+		margin-bottom: 40px;
+	}
+
+	.image-gallery img {
+		width: 48%
+	}
+    
+    
+/*  Demo  */
+    #tlemail {
+        width: 94%; height: 40px;
+        border-radius: 10px;
+        padding-left: 10px
+    }
+    
+    input[type="submit"] {
+        border-radius: 10px;
+        margin-top: 10px;
+        
+        /* Clear style for iOS */
+        -webkit-appearance: none !important;
+    }
+    
+    /*  --  */
+
+	.highlight {
+		padding-top: 5px;
+		padding-bottom: 50px;
+
+		margin-left: -20px;
+		padding-left: 20px;
+
+		margin-right: -20px;
+		padding-right: 20px;
+	}
+
+	iframe {
+		width: 90vw;
+		height: 50.6vw;
+	}
+}
+
+
+
+
+
+
+@media (prefers-color-scheme: dark) {
+  	body {
+  		background-color: #222222;
+  		color: white;
+  	}
+
+  	.author {
+		border-radius: 30px;
+	}
+
+  	.author > p {
+  		color: black;
+  	}
+
+  	.highlight > p {
+  		color: black;
+  	}
+
+  	#demo {
+  		color: black;
+  	}
+
+  	#demo a {
+  		color: teal;
+  	}
+
+  	#demo a:visited {
+  		color: steelblue;
+  	}
+
+  	#course a {
+  		color: teal;
+  	}
+
+  	#course a:visited {
+  		color: steelblue;
+  	}
+
+  	a {
+  		color: gold;
+	}
+
+  	a:visited {
+  		color: goldenrod;
+	}
+
+	footer {
+		color: lightgray;
+	}
+}
