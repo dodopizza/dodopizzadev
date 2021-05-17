@@ -68,7 +68,6 @@ iframe {
 
 .content {
 	display: flex;
-	gap: 50px;
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
@@ -76,6 +75,7 @@ iframe {
 .content img {
 	width: 420px;
 	height: 560px;
+    margin-right: 30px;
 }
 
 .context text {
