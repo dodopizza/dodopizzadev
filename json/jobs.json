@@ -1,7 +1,227 @@
-{
-  "fetchUrl": "https://cors-anywhere.herokuapp.com/https://apply.workable.com/api/v3/accounts/dodobrands/jobs",
-  "linkFormat": "https://apply.workable.com/dodobrands/j/{shortcode}/apply",
-  "replace": {
-    ".Net": ".NET"
+[
+  {
+    "id": 1,
+    "title": "Android developer",
+    "url": "https://dodobrands.huntflow.io/vacancy/android-developer"
+  },
+  {
+    "id": 2,
+    "title": "Android developer (startup Drinkit)",
+    "url": "https://dodobrands.huntflow.io/vacancy/android-developer-startup-drinkit"
+  },
+  {
+    "id": 3,
+    "title": "CVM Manager / Content & Offers Manager",
+    "url": "https://dodobrands.huntflow.io/vacancy/cvm-manager-content-offers-manager"
+  },
+  {
+    "id": 4,
+    "title": "Frontend разработчик",
+    "url": "https://dodobrands.huntflow.io/vacancy/frontend-razrabotchik"
+  },
+  {
+    "id": 5,
+    "title": "Fullstack (.NET) developer",
+    "url": "https://dodobrands.huntflow.io/vacancy/fullstack-net-developer"
+  },
+  {
+    "id": 6,
+    "title": "Head of Application Security",
+    "url": "https://dodobrands.huntflow.io/vacancy/head-of-application-security-1"
+  },
+  {
+    "id": 7,
+    "title": "Head of Product Design",
+    "url": "https://dodobrands.huntflow.io/vacancy/head-of-product-design"
+  },
+  {
+    "id": 8,
+    "title": "Head of Recruitment (Массовый подбор)",
+    "url": "https://dodobrands.huntflow.io/vacancy/head-of-recruitment-massovyi-podbor"
+  },
+  {
+    "id": 9,
+    "title": "IOS developer",
+    "url": "https://dodobrands.huntflow.io/vacancy/ios-developer"
+  },
+  {
+    "id": 10,
+    "title": "iOS developer (startup Doner 42)",
+    "url": "https://dodobrands.huntflow.io/vacancy/ios-developer-startup-doner-42"
+  },
+  {
+    "id": 11,
+    "title": "Mobile QA engineer (startup Drinkit)",
+    "url": "https://dodobrands.huntflow.io/vacancy/mobile-qa-engineer-startup-drinkit"
+  },
+  {
+    "id": 12,
+    "title": ".Net Developer (Release Engineer)",
+    "url": "https://dodobrands.huntflow.io/vacancy/net-developer-release-engineer"
+  },
+  {
+    "id": 13,
+    "title": "Product designer (mobile)",
+    "url": "https://dodobrands.huntflow.io/vacancy/product-designer-mobile"
+  },
+  {
+    "id": 14,
+    "title": "Product owner (b2b)",
+    "url": "https://dodobrands.huntflow.io/vacancy/product-owner-b2b"
+  },
+  {
+    "id": 15,
+    "title": "Product Owner (UK)",
+    "url": "https://dodobrands.huntflow.io/vacancy/product-owner-uk-1"
+  },
+  {
+    "id": 16,
+    "title": "Project manager (запуск продукта)",
+    "url": "https://dodobrands.huntflow.io/vacancy/project-manager-zapusk-produkta"
+  },
+  {
+    "id": 17,
+    "title": "QA mobile",
+    "url": "https://dodobrands.huntflow.io/vacancy/qa-mobile"
+  },
+  {
+    "id": 18,
+    "title": "QA инженер",
+    "url": "https://dodobrands.huntflow.io/vacancy/qa-inzhener"
+  },
+  {
+    "id": 19,
+    "title": "Scrum Master",
+    "url": "https://dodobrands.huntflow.io/vacancy/scrum-master"
+  },
+  {
+    "id": 20,
+    "title": "Senior R&D Manager",
+    "url": "https://dodobrands.huntflow.io/vacancy/senior-r-d-manager"
+  },
+  {
+    "id": 21,
+    "title": "Site reliability engineer (SRE)",
+    "url": "https://dodobrands.huntflow.io/vacancy/site-reliability-engineer-sre"
+  },
+  {
+    "id": 22,
+    "title": "WFM-аналитик",
+    "url": "https://dodobrands.huntflow.io/vacancy/wfm-analitik"
+  },
+  {
+    "id": 23,
+    "title": "Бариста",
+    "url": "https://dodobrands.huntflow.io/vacancy/barista"
+  },
+  {
+    "id": 24,
+    "title": "Бизнес-тренер (Донер 42)",
+    "url": "https://dodobrands.huntflow.io/vacancy/biznes-trener-doner-42"
+  },
+  {
+    "id": 25,
+    "title": "Бизнес-тренер (Курс Старт)",
+    "url": "https://dodobrands.huntflow.io/vacancy/biznes-trener-kurs-start"
+  },
+  {
+    "id": 26,
+    "title": "Бизнес-тренер (Школа Бизнеса Додо)",
+    "url": "https://dodobrands.huntflow.io/vacancy/biznes-trener-shkola-biznesa-dodo"
+  },
+  {
+    "id": 27,
+    "title": "Бухгалтер по расчетам с персоналом",
+    "url": "https://dodobrands.huntflow.io/vacancy/bukhgalter-po-raschetam-s-personalom-1"
+  },
+  {
+    "id": 28,
+    "title": "Ведущий рекрутер",
+    "url": "https://dodobrands.huntflow.io/vacancy/vedushchii-rekruter"
+  },
+  {
+    "id": 29,
+    "title": "Главный инженер",
+    "url": "https://dodobrands.huntflow.io/vacancy/glavnyi-inzhener-1"
+  },
+  {
+    "id": 30,
+    "title": "Дизайнер-архитектор",
+    "url": "https://dodobrands.huntflow.io/vacancy/dizainer-arkhitektor-1"
+  },
+  {
+    "id": 31,
+    "title": "Заместитель главного бухгалтера",
+    "url": "https://dodobrands.huntflow.io/vacancy/zamestitel-glavnogo-bukhgaltera"
+  },
+  {
+    "id": 32,
+    "title": "Креативный продюсер YouTube",
+    "url": "https://dodobrands.huntflow.io/vacancy/kreativnyi-prodiuser-youtube-1"
+  },
+  {
+    "id": 33,
+    "title": "Лидер команды найма (удаленно)",
+    "url": "https://dodobrands.huntflow.io/vacancy/lider-komandy-naima-udalenno"
+  },
+  {
+    "id": 34,
+    "title": "Лид продуктовой аналитики в B2C",
+    "url": "https://dodobrands.huntflow.io/vacancy/lid-produktovoi-analitiki-v-b2c"
+  },
+  {
+    "id": 35,
+    "title": "Менеджер по контролю качества",
+    "url": "https://dodobrands.huntflow.io/vacancy/menedzher-po-kontroliu-kachestva-2"
+  },
+  {
+    "id": 36,
+    "title": "Менеджер по контролю качества и развитию поставщиков",
+    "url": "https://dodobrands.huntflow.io/vacancy/menedzher-po-kontroliu-kachestva-i-razvitiiu-postavshchikov"
+  },
+  {
+    "id": 37,
+    "title": "Менеджер по оценке и развитию сотрудников",
+    "url": "https://dodobrands.huntflow.io/vacancy/menedzher-po-otsenke-i-razvitiiu-sotrudnikov"
+  },
+  {
+    "id": 38,
+    "title": "Менеджер по производственной эффективности",
+    "url": "https://dodobrands.huntflow.io/vacancy/menedzher-po-proizvodstvennoi-effektivnosti-1"
+  },
+  {
+    "id": 39,
+    "title": "Менеджер продукта Digital в Ресторане (Dodo Pizza)",
+    "url": "https://dodobrands.huntflow.io/vacancy/menedzher-produkta-digital-v-restorane-dodo-pizza"
+  },
+  {
+    "id": 40,
+    "title": "Менеджер продукта в Дринкит",
+    "url": "https://dodobrands.huntflow.io/vacancy/menedzher-produkta-v-drinkit"
+  },
+  {
+    "id": 41,
+    "title": "Руководитель HR команды пиццерий",
+    "url": "https://dodobrands.huntflow.io/vacancy/rukovoditel-hr-komandy-pitstserii"
+  },
+  {
+    "id": 42,
+    "title": "Руководитель проектов по строительству",
+    "url": "https://dodobrands.huntflow.io/vacancy/rukovoditel-proektov-po-stroitelstvu"
+  },
+  {
+    "id": 43,
+    "title": "Территориальный менеджер по развитию бизнеса",
+    "url": "https://dodobrands.huntflow.io/vacancy/territorialnyi-menedzher-po-razvitiiu-biznesa"
+  },
+  {
+    "id": 44,
+    "title": "Тренер бариста",
+    "url": "https://dodobrands.huntflow.io/vacancy/trener-barista"
+  },
+  {
+    "id": 45,
+    "title": "Юрист по договорной работе",
+    "url": "https://dodobrands.huntflow.io/vacancy/iurist-po-dogovornoi-rabote"
   }
-}
+]
