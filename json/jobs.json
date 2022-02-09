@@ -1,102 +1,107 @@
 [
   {
     "id": 1,
-    "title": "Android developer",
-    "url": "https://dodobrands.huntflow.io/vacancy/android-developer"
+    "title": ".NET developer",
+    "url": "https://dodobrands.huntflow.io/vacancy/backend-net-developer"
   },
   {
     "id": 2,
-    "title": "Android developer (startup Drinkit)",
-    "url": "https://dodobrands.huntflow.io/vacancy/android-developer-startup-drinkit"
+    "title": ".NET Fullstack developer",
+    "url": "https://dodobrands.huntflow.io/vacancy/fullstack-net-developer-1"
+  },
+  {
+    "id": 3,
+    "title": "SRE",
+    "url": "https://dodobrands.huntflow.io/vacancy/site-reliability-engineer-sre-1"
   },
   {
     "id": 4,
-    "title": "Frontend разработчик",
-    "url": "https://dodobrands.huntflow.io/vacancy/frontend-razrabotchik"
+    "title": "SRE DBA",
+    "url": "https://dodobrands.huntflow.io/vacancy/sre-dba"
   },
   {
     "id": 5,
-    "title": "Fullstack (.NET) developer",
-    "url": "https://dodobrands.huntflow.io/vacancy/fullstack-net-developer"
+    "title": "Lead Product Analyst",
+    "url": "https://dodobrands.huntflow.io/vacancy/lid-produktovoi-analitiki-v-b2c-1"
   },
   {
     "id": 6,
-    "title": "Head of Application Security",
-    "url": "https://dodobrands.huntflow.io/vacancy/head-of-application-security-1"
+    "title": "Product Analyst ERP",
+    "url": "https://dodobrands.huntflow.io/vacancy/produktovyi-analitik-v-erp-1"
   },
   {
     "id": 7,
-    "title": "Head of Product Design",
-    "url": "https://dodobrands.huntflow.io/vacancy/head-of-product-design"
+    "title": "Product Analyst Delivery",
+    "url": "https://dodobrands.huntflow.io/vacancy/produktovyi-analitik-v-komandu-dostavki-i-geo"
+  },
+  {
+    "id": 8,
+    "title": "Data Analyst",
+    "url": "https://dodobrands.huntflow.io/vacancy/data-engineer-2"
   },
   {
     "id": 9,
-    "title": "IOS developer",
-    "url": "https://dodobrands.huntflow.io/vacancy/ios-developer"
+    "title": "Frontend Developer",
+    "url": "https://dodobrands.huntflow.io/vacancy/frontend-razrabotchik-4"
   },
   {
     "id": 10,
-    "title": "iOS developer (startup Doner 42)",
-    "url": "https://dodobrands.huntflow.io/vacancy/ios-developer-startup-doner-42"
+    "title": "Product Designer (B2B)",
+    "url": "https://dodobrands.huntflow.io/vacancy/product-designer-b2b"
   },
   {
     "id": 11,
-    "title": "Mobile QA engineer (startup Drinkit)",
-    "url": "https://dodobrands.huntflow.io/vacancy/mobile-qa-engineer-startup-drinkit"
+    "title": "Product Designer (Mobile)",
+    "url": "https://dodobrands.huntflow.io/vacancy/product-designer-mobile-2"
   },
   {
     "id": 12,
-    "title": ".Net Developer (Release Engineer)",
-    "url": "https://dodobrands.huntflow.io/vacancy/net-developer-release-engineer"
+    "title": "Product Manager (B2B)",
+    "url": "https://dodobrands.huntflow.io/vacancy/product-manager-b2b"
   },
   {
     "id": 13,
-    "title": "Product designer (mobile)",
-    "url": "https://dodobrands.huntflow.io/vacancy/product-designer-mobile"
-  },
-  {
-    "id": 15,
-    "title": "Product Owner (UK)",
+    "title": "Product Owner (UK Project)",
     "url": "https://dodobrands.huntflow.io/vacancy/product-owner-uk-1"
   },
   {
-    "id": 16,
-    "title": "Project manager (запуск продукта)",
-    "url": "https://dodobrands.huntflow.io/vacancy/project-manager-zapusk-produkta"
+    "id": 14,
+    "title": "Product Manager (B2B)",
+    "url": "https://dodobrands.huntflow.io/vacancy/product-manager-b2b"
   },
   {
-    "id": 17,
-    "title": "QA mobile",
-    "url": "https://dodobrands.huntflow.io/vacancy/qa-mobile"
-  },
-  {
-    "id": 18,
-    "title": "QA инженер",
-    "url": "https://dodobrands.huntflow.io/vacancy/qa-inzhener"
-  },
-  {
-    "id": 19,
-    "title": "Scrum Master",
-    "url": "https://dodobrands.huntflow.io/vacancy/scrum-master"
-  },
-  {
-    "id": 21,
-    "title": "Site reliability engineer (SRE)",
-    "url": "https://dodobrands.huntflow.io/vacancy/site-reliability-engineer-sre"
-  },
-  {
-    "id": 34,
-    "title": "Лид продуктовой аналитики в B2C",
-    "url": "https://dodobrands.huntflow.io/vacancy/lid-produktovoi-analitiki-v-b2c"
-  },
-  {
-    "id": 39,
-    "title": "Менеджер продукта Digital в Ресторане (Dodo Pizza)",
+    "id": 15,
+    "title": "Product Manager (Digital Restaurant)",
     "url": "https://dodobrands.huntflow.io/vacancy/menedzher-produkta-digital-v-restorane-dodo-pizza"
   },
   {
-    "id": 40,
-    "title": "Менеджер продукта в Дринкит",
+    "id": 16,
+    "title": "Product Manager (Drinkit Start Up)",
     "url": "https://dodobrands.huntflow.io/vacancy/menedzher-produkta-v-drinkit"
+  },
+  {
+    "id": 17,
+    "title": "Product Manager (Client Exp. on Delivery)",
+    "url": "https://dodobrands.huntflow.io/vacancy/menedzher-produkta-klientskii-opyt-na-dostavku"
+  },
+  {
+    "id": 18,
+    "title": "iOS Developer (Core Team)",
+    "url": "https://dodobrands.huntflow.io/vacancy/ios-developer-core-team"
+  },
+  {
+    "id": 19,
+    "title": "iOS Developer (Doner 42  Start Up)",
+    "url": "https://dodobrands.huntflow.io/vacancy/ios-developer-doner-42-43"
+  },
+  {
+    "id": 20,
+    "title": "iOS Developer",
+    "url": "https://dodobrands.huntflow.io/vacancy/ios-developer-2"
+  },
+  {
+    "id": 21,
+    "title": "Android Developer",
+    "url": "https://dodobrands.huntflow.io/vacancy/android-developer-1"
   }
 ]
