@@ -14,11 +14,6 @@
     "title": "VK",
     "eventId": "vk"
   },
-  "fbLink": {
-    "href": "https://www.facebook.com/dodopizzadev/",
-    "title": "Facebook",
-    "eventId": "facebook"
-  },
   "tgLink": {
     "href": "https://t.me/dododev",
     "title": "Telegram",
