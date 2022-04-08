@@ -79,11 +79,6 @@
       "id": "testgoout",
       "modes": [ "manager", "dev" ]
   },
-  "testfb": {
-      "eventName": "Клик по кнопке Поделиться тестом в Facebook",
-      "id": "testfb",
-      "modes": [ "manager", "dev" ]
-  },
   "testvk": {
       "eventName": "Клик по кнопке Поделиться тестом во VK",
       "id": "testvk",
@@ -117,11 +112,6 @@
   "vk": {
       "eventName": "Клик по кнопке VK",
       "id": "vk",
-      "modes": [ "manager", "dev" ]
-  },
-  "facebook": {
-      "eventName": "Клик по кнопке Facebook",
-      "id": "facebook",
       "modes": [ "manager", "dev" ]
   },
   "telegram": {
