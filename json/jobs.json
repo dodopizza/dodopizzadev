@@ -1,37 +1,22 @@
 [
   {
     "id": 1,
-    "title": ".NET developer",
-    "url": "https://dodobrands.huntflow.io/vacancy/net-developer-5"
+    "title": "Fullstack Developer",
+    "url": "[https://dodobrands.huntflow.io/vacancy/fullstack-developer-1](https://dodobrands.huntflow.io/vacancy/fullstack-developer-1)"
   },
   {
     "id": 2,
-    "title": "Senior product designer (mobile)",
-    "url": "https://dodobrands.huntflow.io/vacancy/product-designer-mobile-3"
+    "title": "Site reliability engineer (SRE)",
+    "url": "[https://dodobrands.huntflow.io/vacancy/site-reliability-engineer-sre-2](https://dodobrands.huntflow.io/vacancy/site-reliability-engineer-sre-2)"
   },
   {
     "id": 3,
-    "title": "Frontend Developer",
-    "url": "https://dodobrands.huntflow.io/vacancy/frontend-razrabotchik-5"
+    "title": "Антифрод Аналитик",
+    "url": "[https://dodobrands.huntflow.io/vacancy/antifrod-analitik-2](https://dodobrands.huntflow.io/vacancy/antifrod-analitik-2)"
   },
   {
     "id": 4,
-    "title": "Data engineer",
-    "url": "https://dodobrands.huntflow.io/vacancy/data-engineer-3"
-  },
-  {
-    "id": 5,
-    "title": "SRE DBA",
-    "url": "https://dodobrands.huntflow.io/vacancy/sre-dba-1"
-  },
-  {
-    "id": 6,
-    "title": "Site reliability engineer (SRE)",
-    "url": "https://dodobrands.huntflow.io/vacancy/site-reliability-engineer-sre-2"
-  },
-  {
-    "id": 7,
-    "title": "BI-разработчик",
-    "url": "https://dodobrands.huntflow.io/vacancy/bi-razrabotchik"
+    "title": "Data Analyst",
+    "url": "[https://dodobrands.huntflow.io/vacancy/data-analyst-2](https://dodobrands.huntflow.io/vacancy/data-analyst-2)"
   }
 ]
